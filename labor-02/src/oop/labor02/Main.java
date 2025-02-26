@@ -7,7 +7,6 @@ import java.util.Random;
 public class Main {
     public static void main(String[] args) {
         // Ex. 1
-        /*
         BankAccount account1 = new BankAccount("OTP00001");
 
         System.out.println(account1.getAccountNumber()+": "+account1.getBalance());
@@ -52,7 +51,7 @@ public class Main {
         }
         System.out.println("Total area: " + rectanglesArea);
 
-        */
+
         // Ex. 3
         System.out.println(DateUtil.isValidDate(2000,2, 29) == true);
         System.out.println(DateUtil.isValidDate(2000,2, 30) == false);
